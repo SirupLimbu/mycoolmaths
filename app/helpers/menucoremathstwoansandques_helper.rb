@@ -1,0 +1,2 @@
+module MenucoremathstwoansandquesHelper
+end

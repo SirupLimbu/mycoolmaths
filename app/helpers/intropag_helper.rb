@@ -1,0 +1,2 @@
+module IntropagHelper
+end

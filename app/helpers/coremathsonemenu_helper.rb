@@ -1,0 +1,2 @@
+module CoremathsonemenuHelper
+end

@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+<head>
+
+
+
+
+<style>
+
+
+body {
+
+	backgroundvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(movie.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+}
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+
+
+
+<video id="backgroundvid"; autoplay = "true"; loop = "true"> 
+		<source src="movie.ogv" type='video/ogv'>
+		 <source src="movie.mp4" type='video/mp4'>
+		</video>
+
+
+
+
+
+
+
+<div style="position:absolute; left:120px; top:100px; " >
+
+<%= link_to  coremathsonemenu_index_path  do %>
+  <%= image_tag('introimgs/Coremaths1.png', width:'200px', height: '320px') %>
+<% end %>
+
+</div>
+
+
+
+<div style="position:absolute; left:380px; top:100px;" >
+	<%= link_to  coremathstwomenu_index_path  do %>
+
+  <%= image_tag('introimgs/Coremaths2.png', width:'200px', height: '320px') %>
+<% end %>
+</div>
+
+
+<div style="position:absolute; right:380px; top:100px;" >
+	<%= link_to coremathsthreemenu_index_path do %>
+  <%= image_tag('introimgs/Coremaths3.png', width:'200px', height: '320px') %>
+  <% end %>
+</div>
+
+
+<div style="position:absolute; right:120px; top:100px;" >
+<%= link_to coremathsfourmenu_index_path do %>
+  <%= image_tag('introimgs/Coremaths4.png', width:'200px', height: '320px') %>
+<% end %>
+</div>
+
+
+<div style="position:absolute; right:440px; top:450px;" >
+  <%= image_tag('/121A.png', width:'400px', height: '50px') %>
+</div>
+
+
+
+
+
+
+
+</body>
